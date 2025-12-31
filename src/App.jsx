@@ -15,6 +15,9 @@ const App = () => {
   }, []);
   return (
     <div className="bg-amber-300 p-10">
+      <h1 className="text-4xl text-white bg-[#396ddf] text-center font-extrabold p-2 uppercase">
+        Food Recipes
+      </h1>
       <div className="flex gap-5 items-center justify-evenly flex-wrap m-10">
         {alldata.map(function (elem, idx) {
           return (
